@@ -1,0 +1,7 @@
+.item-suggest-search {
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+.item-suggest-search:hover {
+  background: #f2f0f5;
+}/*# sourceMappingURL=SuggestSearch.css.map */

@@ -1,0 +1,14 @@
+.inp-wrap-option-main-left-side-search-result {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: #d9d9d9;
+  color: #000;
+  font-size: 18px;
+  border: 2px solid #fff;
+  background: #fff;
+  outline: none;
+}
+.inp-wrap-option-main-left-side-search-result:focus {
+  border-color: #2e89ff;
+}/*# sourceMappingURL=Search.css.map */

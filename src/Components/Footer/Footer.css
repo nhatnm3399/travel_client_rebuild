@@ -1,0 +1,27 @@
+.footer-main-page {
+  width: 100%;
+  border-top: 1px solid #e7e7e7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 600;
+  background: #1b1b1b;
+  flex-direction: column;
+}
+
+.fake-footer-main-page {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 600;
+}/*# sourceMappingURL=Footer.css.map */

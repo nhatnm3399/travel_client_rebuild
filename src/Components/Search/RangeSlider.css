@@ -1,0 +1,109 @@
+.container-range-slide {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-range-slide .slider {
+  position: relative;
+  width: 200px;
+}
+
+.container-range-slide .slider__track,
+.container-range-slide .slider__range,
+.container-range-slide .slider__left-value,
+.container-range-slide .slider__right-value {
+  position: absolute;
+}
+
+.container-range-slide .slider__track,
+.container-range-slide .slider__range {
+  border-radius: 3px;
+  height: 5px;
+}
+
+.container-range-slide .slider__track {
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+}
+
+.container-range-slide .slider__range {
+  background-color: #2e89ff;
+  z-index: 2;
+}
+
+.container-range-slide .slider__left-value,
+.container-range-slide .slider__right-value {
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.container-range-slide .slider__left-value {
+  left: 6px;
+}
+
+.container-range-slide .slider__right-value {
+  right: -4px;
+}
+
+/* Removing the default appearance */
+.container-range-slide .thumb,
+.container-range-slide .thumb::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container-range-slide .thumb {
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: 200px;
+  outline: none;
+}
+
+.container-range-slide .thumb--left {
+  z-index: 3;
+}
+
+.container-range-slide .thumb--right {
+  z-index: 4;
+}
+
+/* For Chrome browsers */
+.container-range-slide .thumb::-webkit-slider-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+/* For Firefox browsers */
+.container-range-slide .thumb::-moz-range-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}

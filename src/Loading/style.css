@@ -1,0 +1,15 @@
+.fkldjisdjkldsased {
+    width: 100px;
+    overflow: visible;
+  }
+  .fkldjisdjkldsased circle {
+    stroke: #2e89ff;
+    transform-origin: 50px 50px;
+    animation: spin 0.7s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }

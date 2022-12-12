@@ -1,0 +1,48 @@
+.active-link-header {
+  color: #2e89ff !important;
+}
+
+.fixed-header-main {
+  width: 100%;
+  height: 68px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 103;
+  background: #fff;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+}
+.fixed-header-main .left-header-fixed .link-left-header-fixed {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.fixed-header-main .right-header-fixed-not-logged {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fixed-header-main .right-header-fixed-not-logged > div {
+  padding: 0 10px;
+}
+.fixed-header-main .right-header-fixed-not-logged > div .navigate-to-auth-user {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+  transform: all 0.1s linear;
+}
+.fixed-header-main .right-header-fixed-not-logged > div .navigate-to-auth-user:hover {
+  color: #2e89ff;
+}
+
+.header-main {
+  width: 100%;
+  height: 68px;
+  position: relative;
+}/*# sourceMappingURL=Header.css.map */
